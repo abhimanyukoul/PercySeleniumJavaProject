@@ -1,6 +1,6 @@
 # PercySeleniumJavaProject
 Percy Selenium Java Project on BrowserStack
-Please follow the below steps to execute your java selenium scripts on the BrowserStack Automate Platform -
+Please follow the below steps to execute your (Maven based) java selenium scripts on the BrowserStack Automate Platform -
 
 **STEP 1: Take pull of this repository into your local folder**
 
@@ -27,4 +27,8 @@ c. pom.xml
 d. src
 e. target
 
-**STEP 5: Run 'npx percy exec -- mvn test -Dtest=myFirstPercySeleniumScriptTest' to execute your Percy test on the [BrowserStack Automate Platform]([url](https://automate.browserstack.com/dashboard/v2))**
+**STEP 5: Run 'npx percy exec -- mvn test -Dtest=myFirstPercySeleniumScriptTest' to execute your Percy test on the [BrowserStack Automate Platform](https://automate.browserstack.com/dashboard/v2)**
+Tests that can be used -
+a. myFirstPercySeleniumScriptTest - To perform percy test of a publicly hosted website
+b. mySecondPercySeleniumScriptLocalTest - To perform percy test of website behind a VPN (or corporate firewall) or hosted on internal networks (--force-local parameter is set as true)
+Reference Docs: https://docs.percy.io/docs/java-selenium
