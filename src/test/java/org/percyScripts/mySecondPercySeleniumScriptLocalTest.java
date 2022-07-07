@@ -75,7 +75,7 @@ public class mySecondPercySeleniumScriptLocalTest {
             // Check if BrowserStack local instance is running
             System.out.println(bsLocal.isRunning());
 
-            remoteWebDriver.get("http://<username>:<password>@localhost/temp.html");
+            remoteWebDriver.get("http://abhimanyu:Apache15$@localhost/temp.html");
             remoteWebDriver.manage().window().maximize();
             remoteWebDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
