@@ -50,7 +50,7 @@ public class mySecondPercySeleniumScriptLocalTest {
             chromeOptions.setCapability("browser", "Chrome");
             chromeOptions.setCapability("browser_version", "latest");
             chromeOptions.setCapability("project", "assignment");
-            chromeOptions.setCapability("build", "Percy Tests");
+            chromeOptions.setCapability("build", "Percy Tests On Github");
             chromeOptions.setCapability("name", "dynamicTimerDataSiteScenarioPercyTest");
             chromeOptions.setCapability("browserstack.local", "true");
             chromeOptions.setCapability("browserstack.localIdentifier", "percySeleniumLocalTest");
