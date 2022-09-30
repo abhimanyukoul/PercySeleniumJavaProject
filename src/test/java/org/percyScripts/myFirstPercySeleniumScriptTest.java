@@ -65,6 +65,7 @@ public class myFirstPercySeleniumScriptTest {
     @Test
     public void executeFileUploadScenarioPercyTest () throws Exception{
         try {
+            //Code starts here
             remoteWebDriver.get("https://the-internet.herokuapp.com/upload");
             remoteWebDriver.manage().window().maximize();
             remoteWebDriver.manage().deleteAllCookies();
