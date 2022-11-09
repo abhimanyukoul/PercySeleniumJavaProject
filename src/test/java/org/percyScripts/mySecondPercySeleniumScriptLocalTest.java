@@ -77,7 +77,7 @@ public class mySecondPercySeleniumScriptLocalTest {
 
             remoteWebDriver.get("http://abhimanyu:Apache15$@localhost/temp.html");
             remoteWebDriver.manage().window().maximize();
-            remoteWebDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+            remoteWebDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(45));
 
             Thread.sleep(10000);
 
